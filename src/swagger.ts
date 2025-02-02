@@ -11,7 +11,7 @@ const options = {
         },
         servers: [
             {
-                url: isProduction ? "https://evenementen-api.onrender.com" : "http://localhost:3000",
+                url: isProduction ? "https://evenementen-api.onrender.com/api/v1" : "http://localhost:3000/api/v1",
             },
         ],
         components: {
